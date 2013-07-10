@@ -1,2 +1,3 @@
 /*#mommy > p {color: blue;} */
-p.bucky + p {color: red;}
+/*p.bucky + p {color: red;}*/
+p.bucky ~ p {color: red;}
