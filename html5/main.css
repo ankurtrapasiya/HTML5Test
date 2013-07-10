@@ -2,5 +2,8 @@
 /*p[name^="anky"]{color:red;}*/
 /*p[name$="anky"]{color:red;}*/
 /*p[name*="anky"]{color:red;}*/
-p:nth-child(odd){color: blue;}
-p:nth-child(even){color: red;}
+/*p:nth-child(odd){color: blue;}
+p:nth-child(even){color: red;}*/
+*{color: blue;}
+
+:not(.sally){color: red};
