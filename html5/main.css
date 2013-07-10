@@ -1,3 +1,4 @@
 /*p.line{color: blue;}*/
 /*p[name^="anky"]{color:red;}*/
-p[name$="anky"]{color:red;}
+/*p[name$="anky"]{color:red;}*/
+p[name*="anky"]{color:red;}
